@@ -1,0 +1,36 @@
+﻿Field=#~Integer~#~50|Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~mcs4.PrjPcb|ReportField=ProjectFullPath~C:\Users\cong\Desktop\mcs4\mcs4.PrjPcb|ReportField=Title~Bill of Materials For Project [mcs4.PrjPcb] (No PCB Document Selected)|ReportField=TotalQuantity~127|ReportField=ReportTime~16:45:10|ReportField=ReportDate~2018/8/30|ReportField=ReportDateTime~2018/8/30 16:45:10|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=Application_BuildNumber~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2018/8/30|ReportField=CurrentTime~16:43:00|ReportField=Date~|ReportField=DocumentFullPathAndName~C:\Users\cong\Desktop\mcs4\MCS4-2.SchDoc|ReportField=DocumentName~MCS4-2.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2018/8/30|ReportField=Organization~|ReportField=ProjectName~mcs4.PrjPcb|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~mcs4.PrjPcb|ReportField=DataSourceFullPath~C:\Users\cong\Desktop\mcs4\mcs4.PrjPcb|ReportField=PCBConfigurationName~Sources|ReportField=Item~|ReportField=ItemRevision~|ReportField=ItemAndRevision~|ReportField=ItemRevisionBase~|ReportField=ItemRevisionLevel1~|ReportField=ItemRevisionLevel2~|ReportField=ItemRevisionLevel1AndBase~|ReportField=ItemRevisionLevel2AndLevel1~
+1|Cap|Capacitor|C1, C2, C3, C5, C6, C7, C8, C9, C10, C11, C12, C13, C18, C20, C22, C23, C24|RAD-0.3|Cap|17
+2|X5R|Capacitor, X5R, Capacitor|C4, C15, C21|RAD-0.3|Cap|3
+3||Capacitor|C14|RAD-0.3|Cap|1
+4|Cap2|Capacitor|C16, C17, C19|CAPR5-4X5|Cap2|3
+5|MBR520|MBR520|D1|SMB|D Schottky|1
+6|1N4148|High Conductance Fast Diode|D2, D3, D17, D18|DO-35|1N4148|4
+7|LED2|Typical RED, GREEN, YELLOW, AMBER GaAs LED|D4, D5, D6, D7, D8, D9, D10, D11, D12, D13, D14, D15, D19|3.2X1.6X1.1|LED2|13
+8|1A||F1|PIN-W2/E2.8|Fuse 1|1
+9|Jumper|Jumper Wire|J1|RAD-0.2|Jumper|1
+10|Mini_USB|Mini_USB|J3|Mini_USB|usbmin2|1
+11|Inductor|Inductor|L1, L2|INDP110102X50N|Inductor|2
+12|Header 4X2|Header, 4-Pin, Dual row|P1, P2, P3|HDR2X4|Header 4X2|3
+13|Header 3X2|Header, 3-Pin, Dual row|P4, P5|HDR2X3|Header 3X2|2
+14|Header 8|Header, 8-Pin|P6|HDR1X8|Header 8|1
+15|PNP|PNP Bipolar Transistor|Q1|SOT-23B_N|PNP|1
+16|NPN|NPN Bipolar Transistor|Q2, Q3|TO-226-AA|NPN|2
+17|Res3|Resistor|R1, R2, R3, R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R14, R15, R16, R17, R18, R19, R20, R21, R22, R23, R24, R25, R26, R27, R28, R29, R30, R31, R33, R34, R35, R36, R37, R38, R39, R40, R41, R42, R43, R45, R46, R50|J1-0603|Res3|45
+18|SW DIP-2|DIP Switch, 2 Position, SPST|S1|DIP-4|SW DIP-2|1
+19|SW-PB|Switch|S2, S3, S4, S5, S6|SPST-2|SW-PB|5
+20|SW-SPST|Single-Pole, Single-Throw Switch|S7|SPST-2|SW-SPST|1
+21|LM393MX|Low Power Low Offset Voltage Dual Comparator|U1, U14|M08A_N|LM393MX|2
+22|SN74HC74D|Dual D-Type Positive-Edge-Triggered Flip-Flop with Clear and Preset|U2, U4|D014_N|SN74HC74D|2
+23|SN74HC08D|Quadruple 2-Input Positive-AND Gate|U3|D014_N|SN74HC08D|1
+24|M28C64-90MS1|64 Kbit (8K x 8) Parallel EEPROM with Software Data Protection|U5|SO28_N|M28C64-90MS1|1
+25|C4002||U6|P4002|C4002|1
+26|C4004||U7|P4004|C4004|1
+27|C4040||U8|P4040|C4040|1
+28|C4289||U9|C4289|C4289|1
+29|SN74HC138D|3-Line to 8-Line Decoder / Demultiplexer|U10, U16|D016_N|SN74HC138D|2
+30|SN74HC161D|4-Bit Synchronous Binary Counter|U11, U13|D016_N|SN74HC161D|2
+31|LT1931IS5|1.2MHz Inverting Current Mode DC/DC Converter|U12|S5-T_N|LT1931IS5|1
+32|SN74HC125D|U15|U15|SN74HC125D|SN74HC125D|1
+33|MC34151D|High Speed Dual MOSFET Driver|U17|751-06_N|MC34151D|1
+34|J2|Jumper Wire|W2|RAD-0.2|Jumper|1
+35|ActiveCrystal_10MHz||X1|ActiveCrystal_10MHz_7050|ActiveCrystal_10MHz|1
