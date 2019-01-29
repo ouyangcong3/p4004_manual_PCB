@@ -1,0 +1,85 @@
+000    D1
+001    21
+002    E2
+003    2E 06
+005    B1
+006    50 1E  --
+008    B1
+009    F5
+00A    12 0E  --
+00C    40 01  --
+00E    21
+00F    E2
+010    F5
+011    B0
+012    14 19  --
+014    A0
+015    20 00
+017    40 1C  --
+019    A0
+01A    20 10
+01C    40 01  --
+01E    2A C0
+020    2C 00
+022    00
+023    00
+024    00
+025    7C 22   -
+027    7B 22   -
+029    7A 22   -
+
+D1 21 E2 2E 06 B1 50 1E
+B1 F5 12 0E 40 01 21 E2
+F5 B0 14 14 A0 20 00 40
+1C A0 20 10 40 01 2A C0
+2C 00 00 00 00 7C 22 7B
+22 7A 22 
+
+waterflow:
+
+	LDM 1
+
+loop1:
+	SRC 0
+	WRR
+	FIM 7,[waterK];Transfer current address
+	XCH 1
+	
+waterK:
+	JMS delay 
+	XCH 1
+	RAL
+	JC swap	;Swap lower and upper 4-bit	
+	JUN loop1
+swap:
+	SRC 0
+	WRR
+	RAL
+	XCH 0
+	JZ set1
+	LDA 0
+	FIM 0,0
+	JUN set0
+set1:
+	LDA 0
+	FIM 0,10
+set0:
+	JUN loop1
+;**********************************
+
+;DELAY subroutine
+delay:
+	FIM 5,C0		
+	FIM 6,0		
+loopD:
+	NOP
+	NOP	
+	NOP		
+	ISZ C,loopD	
+	ISZ B,loopD		
+	ISZ A,loopD	
+	BBL 0
+	
+	http://www.e4004.szyc.org/emu/
+
+
